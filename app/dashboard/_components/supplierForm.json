@@ -1,0 +1,61 @@
+{
+    "supplierForm": [
+      {
+        "label": "Name of Supplier",
+        "name": "supplierName",
+        "fieldType": "text",
+        "required": true,
+        "column": 2,
+        "icon": "FaClipboardList"
+      },
+      {
+        "label": "Product Information",
+        "name": "productInfo",
+        "fieldType": "text",
+        "column": 2,
+        "icon": "FaInfoCircle"
+      },
+      {
+        "label": "Category",
+        "name": "category",
+        "fieldType": "dropdown",
+        "options": ["Software", "Hardware", "Other"],
+        "required": true,
+        "column": 1,
+        "icon": "FaTags"
+      },
+      {
+        "label": "Quantity",
+        "name": "quantity",
+        "fieldType": "number",
+        "required": true,
+        "column": 1,
+        "icon": "FaSortNumericUp"
+      },
+      {
+        "label": "Timeline",
+        "name": "timeline",
+        "fieldType": "date",
+        "required": true,
+        "column": 1,
+        "icon": "FaCalendarAlt"
+      },
+      {
+        "label": "Location",
+        "name": "location",
+        "fieldType": "dropdown",
+        "options": ["N/A", "Warehouse 1", "Warehouse 2", "Office"],
+        "required": true,
+        "column": 1,
+        "icon": "FaMapMarkerAlt"
+      },
+      {
+        "label": "Required For",
+        "name": "requiredFor",
+        "fieldType": "text",
+        "column": 2,
+        "icon": "FaProjectDiagram"
+      }
+    ]
+  }
+  
